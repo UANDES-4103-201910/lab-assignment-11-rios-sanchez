@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c3b5aca-fd28-48cb-9092-2a0282d4f52d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lab-assignment-11-rios-sanchez.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab-assignment-11-rios-sanchez.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/events/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pets/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pets/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/events/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -52,11 +43,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -79,6 +79,7 @@
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pets/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
       </list>
     </option>
   </component>
@@ -147,13 +148,6 @@
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="events" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="lab-assignment-11-rios-sanchez" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="lab-assignment-11-rios-sanchez" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -301,12 +295,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559322634093</updated>
       <workItem from="1559322638077" duration="451000" />
-      <workItem from="1559325445599" duration="4985000" />
+      <workItem from="1559325445599" duration="5204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5993000" />
+    <option name="totallyTimeSpent" value="6212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="6" />
@@ -484,9 +478,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/shopping_carts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pets/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -508,6 +499,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
         </state>
       </provider>
     </entry>
