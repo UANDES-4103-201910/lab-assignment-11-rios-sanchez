@@ -22,6 +22,7 @@ class ShoppingCartsController < ApplicationController
 
   def remove_ticket
     # TODO
+
   end
 
   def index

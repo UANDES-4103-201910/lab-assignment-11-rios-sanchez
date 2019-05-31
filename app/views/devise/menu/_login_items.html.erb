@@ -1,12 +1,12 @@
 <% if user_signed_in? %>
-  <li>
+  <li class="nav-link disabled">
     Welcome, <%=current_user.name%> [<%=current_user.email%> <%=" - Administrator" if current_user.admin? %>]
   </li>
   <li>
-    <%= link_to('Logout', destroy_user_session_path, method: :get) %>
+    <%= link_to('Logout', destroy_user_session_path, method: :get, class:"nav-link") %>
   </li>
 <% else %>
   <li>
-    <%= link_to('Login', new_user_session_path) %>
+    <%= link_to('Login', new_user_session_path, class:"nav-link") %>
   </li>
 <% end %>
