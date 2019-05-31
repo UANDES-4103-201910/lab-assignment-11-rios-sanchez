@@ -4,12 +4,14 @@
     <title>Solution</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link rel="stylesheet" href="application.scss">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-    <header>
+
+
       <ul class="hmenu">
         <%= link_to('Home', :root) %>
         <%= render 'devise/menu/registration_items' %>
@@ -19,6 +21,9 @@
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
     </header>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
   </body>
 </html>
