@@ -19,7 +19,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.bundle" />
       <excludeFolder url="file://$MODULE_DIR$/components" />
       <excludeFolder url="file://$MODULE_DIR$/log" />
+
       <excludeFolder url="file://$MODULE_DIR$/public/packs" />
+
       <excludeFolder url="file://$MODULE_DIR$/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
@@ -27,6 +29,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.6, RVM: ruby-2.5.1 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
